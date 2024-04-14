@@ -1,0 +1,16 @@
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\bin\Debug\BookStore.exe
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\bin\Debug\BookStore.pdb
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.Form1.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.Properties.Resources.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.exe
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.pdb
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.User.Login.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.User.SignUp.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\bin\Debug\BookStore.exe.config
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\bin\Debug\Maissav2.accdb
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Admin_.HomeView.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Admin_.LibrariesView.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Admin_.UsersView.resources
