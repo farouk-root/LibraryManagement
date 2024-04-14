@@ -14,3 +14,7 @@ C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\bin\Debug\Maissav2.accdb
 C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Admin_.HomeView.resources
 C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Admin_.LibrariesView.resources
 C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Admin_.UsersView.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Manager_.BorrowingManagement.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Manager_.HomeBook.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Manager_.ManageBooks.resources
+C:\Users\farouk\Desktop\Maissa\BookStore\BookStore\obj\x86\Debug\BookStore.View.BookStore_Manager_.MembersManagement.resources

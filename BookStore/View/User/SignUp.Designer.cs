@@ -109,7 +109,7 @@
             this.label4.Size = new System.Drawing.Size(61, 20);
             this.label4.TabIndex = 38;
             this.label4.Text = "Library";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            
             // 
             // comboBox_Libraries
             // 
@@ -119,7 +119,7 @@
             this.comboBox_Libraries.Name = "comboBox_Libraries";
             this.comboBox_Libraries.Size = new System.Drawing.Size(228, 37);
             this.comboBox_Libraries.TabIndex = 36;
-            this.comboBox_Libraries.SelectedIndexChanged += new System.EventHandler(this.comboBox_Libraries_SelectedIndexChanged);
+            
             // 
             // label3
             // 
@@ -130,7 +130,7 @@
             this.label3.Size = new System.Drawing.Size(43, 20);
             this.label3.TabIndex = 34;
             this.label3.Text = "Role";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+          
             // 
             // comboBox_Role
             // 
@@ -143,7 +143,7 @@
             this.comboBox_Role.Name = "comboBox_Role";
             this.comboBox_Role.Size = new System.Drawing.Size(222, 28);
             this.comboBox_Role.TabIndex = 33;
-            this.comboBox_Role.SelectedIndexChanged += new System.EventHandler(this.comboBox_Role_SelectedIndexChanged);
+           
             // 
             // button_signUp
             // 
@@ -163,7 +163,7 @@
             this.label2.Size = new System.Drawing.Size(83, 20);
             this.label2.TabIndex = 31;
             this.label2.Text = "Password";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+           
             // 
             // label1
             // 
@@ -174,7 +174,7 @@
             this.label1.Size = new System.Drawing.Size(86, 20);
             this.label1.TabIndex = 28;
             this.label1.Text = "Username";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            
             // 
             // textBox_password
             // 
@@ -183,7 +183,7 @@
             this.textBox_password.Name = "textBox_password";
             this.textBox_password.Size = new System.Drawing.Size(228, 30);
             this.textBox_password.TabIndex = 27;
-            this.textBox_password.TextChanged += new System.EventHandler(this.textBox_password_TextChanged);
+            
             // 
             // textBox_username
             // 
@@ -192,7 +192,7 @@
             this.textBox_username.Name = "textBox_username";
             this.textBox_username.Size = new System.Drawing.Size(228, 30);
             this.textBox_username.TabIndex = 26;
-            this.textBox_username.TextChanged += new System.EventHandler(this.textBox_username_TextChanged);
+            
             // 
             // pictureBox5
             // 
@@ -204,7 +204,7 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 37;
             this.pictureBox5.TabStop = false;
-            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            
             // 
             // pictureBox4
             // 
@@ -216,7 +216,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 35;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            
             // 
             // pictureBox2
             // 
@@ -228,7 +228,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 30;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            
             // 
             // pictureBox3
             // 
@@ -240,7 +240,7 @@
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 29;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            
             // 
             // pictureBox1
             // 
@@ -262,7 +262,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 42;
             this.pictureBox6.TabStop = false;
-            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            
             // 
             // label5
             // 
@@ -273,7 +273,7 @@
             this.label5.Size = new System.Drawing.Size(51, 20);
             this.label5.TabIndex = 41;
             this.label5.Text = "Email";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            
             // 
             // textBox_Email
             // 
@@ -282,7 +282,7 @@
             this.textBox_Email.Name = "textBox_Email";
             this.textBox_Email.Size = new System.Drawing.Size(228, 30);
             this.textBox_Email.TabIndex = 40;
-            this.textBox_Email.TextChanged += new System.EventHandler(this.textBox_Email_TextChanged);
+            
             // 
             // pictureBox7
             // 
@@ -294,7 +294,7 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 45;
             this.pictureBox7.TabStop = false;
-            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            
             // 
             // label6
             // 
@@ -305,7 +305,7 @@
             this.label6.Size = new System.Drawing.Size(67, 20);
             this.label6.TabIndex = 44;
             this.label6.Text = "Contact";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            
             // 
             // textBox_Contact
             // 
@@ -314,7 +314,7 @@
             this.textBox_Contact.Name = "textBox_Contact";
             this.textBox_Contact.Size = new System.Drawing.Size(228, 30);
             this.textBox_Contact.TabIndex = 43;
-            this.textBox_Contact.TextChanged += new System.EventHandler(this.textBox_Contact_TextChanged);
+           
             // 
             // SignUp
             // 

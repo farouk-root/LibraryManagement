@@ -123,5 +123,54 @@ namespace BookStore.Controller
             return library;
         }
 
+        public bool UpdateLibrary(long IDLib , LibraryModel library)
+        {
+            bool isUpdated = false;
+
+            using (OleDbConnection connection = connectionDB.GetConnection())
+            {
+                connection.Open();
+                string updateQuery = "UPDATE LIBRARY SET NAME = @Name, LOCATION = @Location, EMAIL = @Email, PHONE = @Phone WHERE IDLIB = @Id";
+                using (OleDbCommand command = new OleDbCommand(updateQuery, connection))
+                {
+                    
+                    command.Parameters.AddWithValue("@Name", library.Name);
+                    command.Parameters.AddWithValue("@Location", library.Location);
+                    command.Parameters.AddWithValue("@Email", library.Email);
+                    command.Parameters.AddWithValue("@Phone", library.Phone);
+                    command.Parameters.AddWithValue("@Id", IDLib);
+
+                    int rowsUpdated = command.ExecuteNonQuery();
+                    isUpdated = rowsUpdated > 0; // Check if any rows were updated
+                }
+            }
+
+            return isUpdated;
+        }
+
+        public bool DeleteLibrary(long libraryID)
+        {
+            bool isDeleted = false;
+
+            if (libraryID != 0) // Ensure a valid library ID is provided
+            {
+                using (OleDbConnection connection = connectionDB.GetConnection())
+                {
+                    connection.Open();
+                    string deleteQuery = "DELETE FROM LIBRARY WHERE IDLIB = @Id";
+                    using (OleDbCommand command = new OleDbCommand(deleteQuery, connection))
+                    {
+                        command.Parameters.AddWithValue("@Id", libraryID);
+
+                        int rowsDeleted = command.ExecuteNonQuery();
+                        isDeleted = rowsDeleted > 0; // Check if any rows were deleted
+                    }
+                }
+            }
+
+            return isDeleted;
+        }
+
+
     }
 }

@@ -67,6 +67,20 @@ namespace BookStore.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap book {
+            get {
+                object obj = ResourceManager.GetObject("book", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap book_stack {
+            get {
+                object obj = ResourceManager.GetObject("book-stack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap bookShopBackground {
             get {
                 object obj = ResourceManager.GetObject("bookShopBackground", resourceCulture);
@@ -84,6 +98,20 @@ namespace BookStore.Properties {
         internal static System.Drawing.Bitmap bookStoreBackground1 {
             get {
                 object obj = ResourceManager.GetObject("bookStoreBackground1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap copy {
+            get {
+                object obj = ResourceManager.GetObject("copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap expirationIcon {
+            get {
+                object obj = ResourceManager.GetObject("expirationIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -109,6 +137,20 @@ namespace BookStore.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap gmail1 {
+            get {
+                object obj = ResourceManager.GetObject("gmail1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap house {
+            get {
+                object obj = ResourceManager.GetObject("house", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap library {
             get {
                 object obj = ResourceManager.GetObject("library", resourceCulture);
@@ -119,6 +161,13 @@ namespace BookStore.Properties {
         internal static System.Drawing.Bitmap library1 {
             get {
                 object obj = ResourceManager.GetObject("library1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap libraryMap {
+            get {
+                object obj = ResourceManager.GetObject("libraryMap", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -165,6 +214,13 @@ namespace BookStore.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap registration {
+            get {
+                object obj = ResourceManager.GetObject("registration", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap roleicon {
             get {
                 object obj = ResourceManager.GetObject("roleicon", resourceCulture);
@@ -172,9 +228,30 @@ namespace BookStore.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap roleicon1 {
+            get {
+                object obj = ResourceManager.GetObject("roleicon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap user {
             get {
                 object obj = ResourceManager.GetObject("user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap user1 {
+            get {
+                object obj = ResourceManager.GetObject("user1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap writer {
+            get {
+                object obj = ResourceManager.GetObject("writer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

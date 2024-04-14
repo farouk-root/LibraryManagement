@@ -46,7 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\BookController.cs" />
+    <Compile Include="Controller\BorrowController.cs" />
     <Compile Include="Controller\LibraryController.cs" />
+    <Compile Include="Controller\MemberController.cs" />
     <Compile Include="Controller\UserController.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -59,7 +62,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Maissav2DataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Model\Book\BookModel.cs" />
+    <Compile Include="Model\Borrow\BorrowModel.cs" />
     <Compile Include="Model\Library\LibraryModel.cs" />
+    <Compile Include="Model\Member\MemberModel.cs" />
     <Compile Include="Model\User\UserModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +87,30 @@
     </Compile>
     <Compile Include="View\BookStore[Admin]\UsersView.Designer.cs">
       <DependentUpon>UsersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BookStore[Manager]\BorrowingManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\BookStore[Manager]\BorrowingManagement.Designer.cs">
+      <DependentUpon>BorrowingManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BookStore[Manager]\HomeBook.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\BookStore[Manager]\HomeBook.Designer.cs">
+      <DependentUpon>HomeBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BookStore[Manager]\ManageBooks.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\BookStore[Manager]\ManageBooks.Designer.cs">
+      <DependentUpon>ManageBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BookStore[Manager]\MembersManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="View\BookStore[Manager]\MembersManagement.Designer.cs">
+      <DependentUpon>MembersManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="View\User\Login.cs">
       <SubType>UserControl</SubType>
@@ -115,6 +145,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\BookStore[Admin]\UsersView.resx">
       <DependentUpon>UsersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BookStore[Manager]\BorrowingManagement.resx">
+      <DependentUpon>BorrowingManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BookStore[Manager]\HomeBook.resx">
+      <DependentUpon>HomeBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BookStore[Manager]\ManageBooks.resx">
+      <DependentUpon>ManageBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BookStore[Manager]\MembersManagement.resx">
+      <DependentUpon>MembersManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\User\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -179,13 +221,19 @@
     <None Include="Assets\locationIcon.png" />
     <None Include="Assets\gmail.png" />
     <None Include="Assets\phone-call.png" />
+    <None Include="Assets\libraryMap.png" />
+    <None Include="Assets\book.png" />
+    <None Include="Assets\writer.png" />
+    <None Include="Assets\book-stack.png" />
+    <None Include="Assets\copy.png" />
+    <None Include="Assets\registration.png" />
+    <None Include="Assets\expirationIcon.png" />
+    <None Include="Assets\house.png" />
     <Content Include="Maissav2.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="View\BookStore[Manager]\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
